@@ -3,10 +3,11 @@ katz_deli = []
 
 # line
 def line(array)
+    q = []
     if array.empty?
       puts "The line is currently empty."
     else
-      q = []
+      
       array.each.with_index(1) do |index, person| 
       q.push("#{person}. #{index}")
     end
