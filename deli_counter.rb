@@ -4,22 +4,13 @@ def line(array)
     if array.empty?
       puts "The line is currently empty."
     else
-      array.collect.with_index(1) do |person, index|
-      print "#{index}.#{person} "
+      "The line is currently: "
+      array.each.with_index(1) { |person, index|
+      print "#{index}. #{person} "
+      }
     end
   end
 end
-
-# def line(array)
-#     if array.empty?
-#       puts "The line is currently empty."
-#     else
-#       print "The line is currently: "
-#       array.collect.with_index(1) do |person, index|
-#       print "#{index}.#{person} "
-#     end
-#   end
-# end
 
 
 
