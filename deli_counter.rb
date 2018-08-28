@@ -10,7 +10,7 @@ def line(array)
       array.each.with_index(1) do |index, person| 
       q.push("#{person}. #{index}")
     end
-      print "The line is currently: " + q.join(" ") 
+      puts "The line is currently: #{q.join(' ')}" 
   end
 end
 
