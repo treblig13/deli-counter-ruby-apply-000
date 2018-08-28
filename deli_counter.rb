@@ -11,6 +11,17 @@ def line(array)
   end
 end
 
+
+
+
+
+
+
+
+
+
+
+
 def take_a_number(array, person)
     array.push(person)
     puts "Welcome, #{array[-1]}. You are number #{array.length} in line."
