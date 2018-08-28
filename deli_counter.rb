@@ -6,7 +6,7 @@ def line(array)
     else
       print "The line is currently: "
       array.each.with_index(1) { |person, index|
-      print "#{index}.#{person} " }
+      print "#{index}. #{person} " }
   end
 end
 
