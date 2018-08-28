@@ -6,7 +6,6 @@ def line(array)
     else
       print "The line is currently: "
       print array.join(" ")
-    end
   end
 end
 
